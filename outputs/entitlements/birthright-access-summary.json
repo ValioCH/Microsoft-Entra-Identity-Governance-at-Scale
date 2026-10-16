@@ -1,0 +1,12 @@
+{
+  "GeneratedAt": "2026-09-28T09:12:32.3372485+03:00",
+  "InputFileName": "hr-live-pilot.csv",
+  "InputRecords": 10,
+  "PolicyRules": 13,
+  "AccessDecisions": 40,
+  "AssignmentDecisions": 40,
+  "OffboardingDecisions": 0,
+  "PrivilegedAccessDecisions": 0,
+  "ControlResult": "PASS",
+  "ControlStatement": "HR attributes must not grant privileged roles; privileged access requires a separate approval and PIM workflow."
+}

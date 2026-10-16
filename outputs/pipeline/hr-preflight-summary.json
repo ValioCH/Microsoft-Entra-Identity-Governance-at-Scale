@@ -1,0 +1,11 @@
+{
+  "GeneratedAt": "2026-09-28T08:56:49.9910586+03:00",
+  "InputFileName": "synthetic-hr-1000.csv",
+  "InputSha256": "1970A48EE6DD4A87C0EAAEFC26DE91255D1AB37599027FAF728286EE619414BF",
+  "TotalRecords": 1000,
+  "CreateRecords": 915,
+  "UpdateRecords": 57,
+  "DisableRecords": 28,
+  "ValidationErrors": 0,
+  "PreflightStatus": "PASS"
+}

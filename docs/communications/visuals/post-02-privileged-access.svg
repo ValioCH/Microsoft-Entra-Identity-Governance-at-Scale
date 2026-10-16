@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1350" viewBox="0 0 1200 1350" role="img">
+<style>
+text { font-family: "Segoe UI", Arial, sans-serif; }
+.kicker { font-size: 18px; font-weight: 700; letter-spacing: 1.8px; fill: #0F766E; }
+.number { font-size: 17px; font-weight: 700; fill: #0F766E; }
+.title { font-size: 47px; font-weight: 750; fill: #0F172A; }
+.question { font-size: 23px; font-weight: 600; fill: #1E293B; }
+.section { font-size: 17px; font-weight: 750; letter-spacing: 1.3px; fill: #64748B; }
+.flow-box, .test-box, .metric-box { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 2; }
+.flow-text { font-size: 20px; font-weight: 650; fill: #1E293B; }
+.step { font-size: 18px; font-weight: 750; fill: #FFFFFF; }
+.arrow { font-size: 54px; font-weight: 300; fill: #94A3B8; }
+.chip { font-size: 14px; font-weight: 750; letter-spacing: 1px; fill: #3730A3; }
+.test-title { font-size: 23px; font-weight: 700; fill: #0F172A; }
+.body { font-size: 18px; fill: #475569; }
+.metric { font-size: 34px; font-weight: 750; }
+.metric-label { font-size: 17px; fill: #475569; }
+.boundary-title { font-size: 17px; font-weight: 750; letter-spacing: 1px; fill: #9F1239; }
+.boundary { font-size: 19px; fill: #4C0519; }
+.evidence { font-size: 15px; fill: #64748B; }
+</style>
+<rect width="1200" height="1350" fill="#F8FAFC"/>
+<rect width="18" height="1350" fill="#0F766E"/>
+<text x="80" y="66" class="kicker">ENTERPRISE IDENTITY GOVERNANCE AT SCALE</text>
+<text x="80" y="145" class="title" text-anchor="start">Privilege is a</text>
+<text x="80" y="201" class="title" text-anchor="start">separate lifecycle</text>
+<rect x="80" y="265" width="1040" height="88" rx="18" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="110" y="305" class="question" text-anchor="start">Department = IT must never mean</text>
+<text x="110" y="335" class="question" text-anchor="start">automatic administrative privilege.</text>
+<text x="80" y="380" class="section">DESIGN BEFORE AUTOMATION</text>
+<rect x="80" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="110" cy="427" r="17" fill="#0F766E"/>
+<text x="110" y="434" class="step" text-anchor="middle">1</text>
+<text x="100" y="470" class="flow-text" text-anchor="start">Separate</text>
+<text x="100" y="496" class="flow-text" text-anchor="start">Tier 2 admin</text>
+<text x="100" y="522" class="flow-text" text-anchor="start">identity</text>
+<text x="325" y="476" class="arrow">&gt;</text>
+<rect x="340" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="370" cy="427" r="17" fill="#0F766E"/>
+<text x="370" y="434" class="step" text-anchor="middle">2</text>
+<text x="360" y="470" class="flow-text" text-anchor="start">Role group</text>
+<text x="360" y="496" class="flow-text" text-anchor="start">explicit governed</text>
+<text x="360" y="522" class="flow-text" text-anchor="start">membership</text>
+<text x="585" y="476" class="arrow">&gt;</text>
+<rect x="600" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="630" cy="427" r="17" fill="#0F766E"/>
+<text x="630" y="434" class="step" text-anchor="middle">3</text>
+<text x="620" y="470" class="flow-text" text-anchor="start">PIM eligible</text>
+<text x="620" y="496" class="flow-text" text-anchor="start">MFA / ticket</text>
+<text x="620" y="522" class="flow-text" text-anchor="start">approval</text>
+<text x="845" y="476" class="arrow">&gt;</text>
+<rect x="860" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="890" cy="427" r="17" fill="#0F766E"/>
+<text x="890" y="434" class="step" text-anchor="middle">4</text>
+<text x="880" y="470" class="flow-text" text-anchor="start">1-hour task</text>
+<text x="880" y="496" class="flow-text" text-anchor="start">audit / rollback</text>
+<text x="880" y="522" class="flow-text" text-anchor="start">expiry</text>
+
+<text x="80" y="628" class="section">WHAT WAS ACTUALLY TESTED</text>
+<rect x="80" y="650" width="326" height="218" rx="18" class="test-box"/>
+<rect x="98" y="670" width="150" height="32" rx="16" fill="#E0E7FF"/>
+<text x="173" y="692" class="chip" text-anchor="middle">BEFORE</text>
+<text x="98" y="742" class="test-title">No standing role</text>
+<text x="98" y="782" class="body" text-anchor="start">Eligible assignment;</text>
+<text x="98" y="809" class="body" text-anchor="start">active assignments empty.</text>
+<rect x="426" y="650" width="326" height="218" rx="18" class="test-box"/>
+<rect x="444" y="670" width="150" height="32" rx="16" fill="#E0E7FF"/>
+<text x="519" y="692" class="chip" text-anchor="middle">VERIFIED LIVE</text>
+<text x="444" y="742" class="test-title">Controlled action</text>
+<text x="444" y="782" class="body" text-anchor="start">Group change completed</text>
+<text x="444" y="809" class="body" text-anchor="start">and actor audited.</text>
+<rect x="772" y="650" width="326" height="218" rx="18" class="test-box"/>
+<rect x="790" y="670" width="150" height="32" rx="16" fill="#E0E7FF"/>
+<text x="865" y="692" class="chip" text-anchor="middle">AFTER</text>
+<text x="790" y="742" class="test-title">Automatic expiry</text>
+<text x="790" y="782" class="body" text-anchor="start">Active role removed;</text>
+<text x="790" y="809" class="body" text-anchor="start">eligibility retained.</text>
+<text x="80" y="932" class="section">OBSERVED RESULT</text>
+<rect x="80" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="98" y="1007" class="metric" fill="#0F766E">MFA</text>
+<text x="98" y="1044" class="metric-label">required</text>
+<rect x="340" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="358" y="1007" class="metric" fill="#0F766E">1 h</text>
+<text x="358" y="1044" class="metric-label">activation used</text>
+<rect x="600" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="618" y="1007" class="metric" fill="#0F766E">2</text>
+<text x="618" y="1044" class="metric-label">approvers configured</text>
+<rect x="860" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="878" y="1007" class="metric" fill="#0F766E">0</text>
+<text x="878" y="1044" class="metric-label">active after expiry</text>
+<rect x="80" y="1135" width="1040" height="142" rx="18" fill="#FFF1F2" stroke="#FECDD3"/>
+<text x="105" y="1170" class="boundary-title">EVIDENCE BOUNDARY</text>
+<text x="105" y="1207" class="boundary" text-anchor="start">One Tier 2 identity and one Groups Administrator role were tested.</text>
+<text x="105" y="1235" class="boundary" text-anchor="start">Tier 0/1 and enterprise rollout remain architecture - not verified deployment.</text>
+<text x="80" y="1320" class="evidence">EV-IG-007 | Separate operator, approver and audit-verification responsibilities.</text>
+</svg>

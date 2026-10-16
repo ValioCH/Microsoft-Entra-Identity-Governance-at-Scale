@@ -1,0 +1,11 @@
+EmployeeId,GivenName,Surname,UserAlias,Department,JobTitle,EmployeeType,ManagerEmployeeId,Location,CountryCode,LifecycleAction,EmploymentStatus,StartDate,EndDate,CostCenter,SourceSystem,RecordVersion
+LAB-1000,Alexander,Novak,alexander.novak,Executive,Chief Operating Officer,Employee,,Sofia,BG,Create,Active,2026-09-01,,CC-100,HR-LAB,1
+LAB-1100,Maya,Ivanova,maya.ivanova,HR,HR Director,Employee,LAB-1000,Sofia,BG,Create,Active,2026-09-01,,CC-110,HR-LAB,1
+LAB-1200,Elena,Marinova,elena.marinova,Finance,Finance Director,Employee,LAB-1000,Sofia,BG,Create,Active,2026-09-01,,CC-120,HR-LAB,1
+LAB-1300,Stefan,Dimitrov,stefan.dimitrov,IT,IT Director,Employee,LAB-1000,Sofia,BG,Create,Active,2026-09-01,,CC-130,HR-LAB,1
+LAB-1400,Sara,Muller,sara.muller,Sales,Sales Director,Employee,LAB-1000,Sofia,BG,Create,Active,2026-09-01,,CC-140,HR-LAB,1
+LAB-1500,Viktor,Georgiev,viktor.georgiev,Operations,Operations Manager,Employee,LAB-1000,Sofia,BG,Create,Active,2026-09-01,,CC-150,HR-LAB,1
+LAB-1101,Nikolai,Petrov,nikolai.petrov,HR,HR Specialist,Employee,LAB-1100,Varna,BG,Create,Active,2026-09-07,,CC-110,HR-LAB,1
+LAB-1202,Daniel,Popescu,daniel.popescu,Finance,Accountant,Employee,LAB-1200,Bucharest,RO,Create,Active,2026-09-14,,CC-120,HR-LAB,1
+LAB-1302,Irina,Kovacs,irina.kovacs,IT,Security Engineer,Employee,LAB-1300,Bucharest,RO,Create,Active,2026-09-08,,CC-130,HR-LAB,1
+LAB-1401,Petar,Kolev,petar.kolev,Sales,Sales Executive,Employee,LAB-1400,Varna,BG,Create,Active,2026-09-15,,CC-140,HR-LAB,1

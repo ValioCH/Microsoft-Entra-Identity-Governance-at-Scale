@@ -1,0 +1,18 @@
+﻿{
+    "SchemaVersion":  "1.0",
+    "AsOfDate":  "2026-09-29",
+    "InputFileName":  "synthetic-hr-1000.csv",
+    "InputSha256":  "1970A48EE6DD4A87C0EAAEFC26DE91255D1AB37599027FAF728286EE619414BF",
+    "Seed":  42,
+    "InactiveDays":  30,
+    "TotalIdentities":  1000,
+    "ReviewerCount":  16,
+    "MaximumReviewerLoad":  81,
+    "AverageReviewerLoad":  62.5,
+    "ReviewersOverLimit":  0,
+    "Approve":  245,
+    "Deny":  726,
+    "ManualReview":  29,
+    "PrivilegedExceptions":  10,
+    "Status":  "PASS"
+}

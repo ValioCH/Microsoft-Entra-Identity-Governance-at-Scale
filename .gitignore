@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+*.secret.*
+*.pfx
+*.p12
+*.pem
+*.key
+auth.json
+
+# Operational exports and evidence awaiting sanitization
+private/
+evidence-raw/
+exports-raw/
+No/
+*.har
+
+# Local parameter files
+*.local.json
+*.local.ps1
+
+# Tooling and temporary output
+node_modules/
+.terraform/
+*.tfstate
+*.tfstate.*
+__pycache__/
+*.tmp
+*.log
+
+# Office working notes and publication copies
+*.docx
+
+# Local social-media publication packages; selected public artifacts live in docs/evidence/public/
+docs/communications/ready-to-publish/
+

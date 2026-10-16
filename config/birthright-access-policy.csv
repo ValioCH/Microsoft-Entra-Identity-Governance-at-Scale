@@ -1,0 +1,14 @@
+RuleId,Priority,Attribute,Operator,Value,EntitlementType,EntitlementName,Description
+BR-001,10,EmploymentStatus,Equals,Active,Group,SG-ORG-Active-Workforce,Active workforce baseline
+BR-002,20,EmployeeType,Equals,Employee,LicenseProfile,LIC-M365-E5-PILOT,Employee license profile; pilot assignment only
+BR-003,20,EmployeeType,Equals,Contractor,Group,SG-WORKER-Contractors,Contractor governance scope
+BR-004,30,Department,Equals,HR,Group,SG-DEPT-HR,HR collaboration baseline
+BR-005,30,Department,Equals,Finance,Group,SG-DEPT-Finance,Finance collaboration baseline
+BR-006,30,Department,Equals,IT,Group,SG-DEPT-IT,IT collaboration baseline; no admin privileges
+BR-007,30,Department,Equals,Sales,Group,SG-DEPT-Sales,Sales collaboration baseline
+BR-008,30,Department,Equals,Operations,Group,SG-DEPT-Operations,Operations collaboration baseline
+BR-009,30,Department,Equals,Executive,Group,SG-DEPT-Executive,Executive collaboration baseline
+BR-010,40,Location,Equals,Sofia,Group,SG-LOC-Sofia,Sofia location baseline
+BR-011,40,Location,Equals,Varna,Group,SG-LOC-Varna,Varna location baseline
+BR-012,40,Location,Equals,Bucharest,Group,SG-LOC-Bucharest,Bucharest location baseline
+BR-013,50,EmploymentStatus,Equals,PreHire,Group,SG-LIFECYCLE-PreHire,Pre-hire staging only; no active workforce access

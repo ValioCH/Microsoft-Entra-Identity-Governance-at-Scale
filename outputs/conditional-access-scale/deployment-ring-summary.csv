@@ -1,0 +1,6 @@
+﻿"DeploymentRing","Identities","TargetedActive","WouldSatisfyMfa","UserActionRequired","Excluded","Inactive","MfaReadinessPercent","PromotionDecision"
+"Ring0-Emergency-Exclusion","2","0","0","0","2","0","100","Excluded"
+"Ring1-Privileged-Pilot","10","10","9","1","0","0","90","NoGo-RemediateMFA"
+"Ring2-IT-Pilot","56","55","46","9","0","1","83,64","NoGo-RemediateMFA"
+"Ring3-Department-Rollout","435","422","383","39","0","13","90,76","NoGo-RemediateMFA"
+"Ring4-Broad-Workforce","497","483","434","49","0","14","89,86","NoGo-RemediateMFA"

@@ -1,0 +1,125 @@
+{
+  "GeneratedAt": "2026-09-28T10:09:24.4801992+00:00",
+  "PlanSha256": "5ED11D08F315CB617E9ED25E02ECE9EE39430C7AC88403E13CB9ECEDBAE46414",
+  "GroupSummary": {
+    "Create": 0,
+    "NoChange": 7,
+    "ReviewExisting": 0
+  },
+  "UserSummary": {
+    "Create": 0,
+    "Update": 0,
+    "Disable": 0,
+    "NoChange": 10,
+    "SkipMissingDisable": 0
+  },
+  "Groups": [
+    {
+      "Name": "SG-PILOT-Active-Workforce",
+      "Action": "NoChange",
+      "Rule": "(user.employeeId -startsWith \"LAB-\") -and (user.accountEnabled -eq true)"
+    },
+    {
+      "Name": "SG-PILOT-DEPT-Executive",
+      "Action": "NoChange",
+      "Rule": "(user.employeeId -startsWith \"LAB-\") -and (user.department -eq \"Executive\") -and (user.accountEnabled -eq true)"
+    },
+    {
+      "Name": "SG-PILOT-DEPT-HR",
+      "Action": "NoChange",
+      "Rule": "(user.employeeId -startsWith \"LAB-\") -and (user.department -eq \"HR\") -and (user.accountEnabled -eq true)"
+    },
+    {
+      "Name": "SG-PILOT-DEPT-Finance",
+      "Action": "NoChange",
+      "Rule": "(user.employeeId -startsWith \"LAB-\") -and (user.department -eq \"Finance\") -and (user.accountEnabled -eq true)"
+    },
+    {
+      "Name": "SG-PILOT-DEPT-IT",
+      "Action": "NoChange",
+      "Rule": "(user.employeeId -startsWith \"LAB-\") -and (user.department -eq \"IT\") -and (user.accountEnabled -eq true)"
+    },
+    {
+      "Name": "SG-PILOT-DEPT-Sales",
+      "Action": "NoChange",
+      "Rule": "(user.employeeId -startsWith \"LAB-\") -and (user.department -eq \"Sales\") -and (user.accountEnabled -eq true)"
+    },
+    {
+      "Name": "SG-PILOT-DEPT-Operations",
+      "Action": "NoChange",
+      "Rule": "(user.employeeId -startsWith \"LAB-\") -and (user.department -eq \"Operations\") -and (user.accountEnabled -eq true)"
+    }
+  ],
+  "Users": [
+    {
+      "EmployeeId": "LAB-1000",
+      "Alias": "alexander.novak",
+      "Action": "NoChange",
+      "Department": "Executive",
+      "ManagerEmployeeId": ""
+    },
+    {
+      "EmployeeId": "LAB-1100",
+      "Alias": "maya.ivanova",
+      "Action": "NoChange",
+      "Department": "HR",
+      "ManagerEmployeeId": "LAB-1000"
+    },
+    {
+      "EmployeeId": "LAB-1101",
+      "Alias": "nikolai.petrov",
+      "Action": "NoChange",
+      "Department": "HR",
+      "ManagerEmployeeId": "LAB-1100"
+    },
+    {
+      "EmployeeId": "LAB-1200",
+      "Alias": "elena.marinova",
+      "Action": "NoChange",
+      "Department": "Finance",
+      "ManagerEmployeeId": "LAB-1000"
+    },
+    {
+      "EmployeeId": "LAB-1202",
+      "Alias": "daniel.popescu",
+      "Action": "NoChange",
+      "Department": "Finance",
+      "ManagerEmployeeId": "LAB-1200"
+    },
+    {
+      "EmployeeId": "LAB-1300",
+      "Alias": "stefan.dimitrov",
+      "Action": "NoChange",
+      "Department": "IT",
+      "ManagerEmployeeId": "LAB-1000"
+    },
+    {
+      "EmployeeId": "LAB-1302",
+      "Alias": "irina.kovacs",
+      "Action": "NoChange",
+      "Department": "IT",
+      "ManagerEmployeeId": "LAB-1300"
+    },
+    {
+      "EmployeeId": "LAB-1400",
+      "Alias": "sara.muller",
+      "Action": "NoChange",
+      "Department": "Sales",
+      "ManagerEmployeeId": "LAB-1000"
+    },
+    {
+      "EmployeeId": "LAB-1401",
+      "Alias": "petar.kolev",
+      "Action": "NoChange",
+      "Department": "Sales",
+      "ManagerEmployeeId": "LAB-1400"
+    },
+    {
+      "EmployeeId": "LAB-1500",
+      "Alias": "viktor.georgiev",
+      "Action": "NoChange",
+      "Department": "Operations",
+      "ManagerEmployeeId": "LAB-1000"
+    }
+  ]
+}

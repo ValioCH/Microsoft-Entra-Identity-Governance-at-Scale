@@ -1,0 +1,37 @@
+𝐇𝐨𝐰 𝐝𝐨 𝐲𝐨𝐮 𝐬𝐭𝐨𝐩 𝐢𝐝𝐞𝐧𝐭𝐢𝐭𝐲 𝐥𝐢𝐟𝐞𝐜𝐲𝐜𝐥𝐞 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐛𝐞𝐜𝐨𝐦𝐢𝐧𝐠 𝟏,𝟎𝟎𝟎 𝐦𝐚𝐧𝐮𝐚𝐥 𝐭𝐢𝐜𝐤𝐞𝐭𝐬?
+
+I started the implementation phase of my Enterprise Identity Governance at Scale lab with the source of the identity lifecycle: HR data. The main design decision came before the automation:
+HR owns workforce facts.
+IAM owns access policy.
+
+🧭 THE POLICY MODEL
+The simulated HR source supplies employee ID, department, worker type, manager, location, employment status and lifecycle action.
+IAM translates only approved attributes into low-risk birthright access:
+• Active LAB workforce → active-workforce group and pilot group-based E5 licensing
+• Employee / Contractor → separate workforce governance decisions
+• Department = Finance → Finance collaboration group
+• Location = Sofia → Sofia location group
+• PreHire → staging access only
+• LeaveScheduled / Disable → remove calculated birthright access and flag residual assigned access for reconciliation
+
+One boundary is non-negotiable: an HR attribute never grants an administrative role. Privileged access is handled separately through PIM.
+
+🧪 THREE LEVELS OF VALIDATION
+1 — Policy design
+A 20-record synthetic HR workbook made the source schema, lifecycle states and proposed IAM mappings reviewable before any records were provisioned to the tenant.
+2 — Live pilot
+A two-identity Joiner/Mover/Leaver test and a separate 10-identity Entra batch validated attribute updates, dynamic membership, group-based licensing and a zero-change second plan.
+The live pilot used seats from a 25-user Microsoft 365 E5 trial; production licensing should follow role requirements and cost governance.
+The active-workforce and department paths were validated live. Location, contractor and pre-hire mappings were evaluated as offline policy logic and remain candidates for a future live extension.
+3 — Synthetic scale test
+Before any tenant write, I ran 1,000 deterministic HR records through a parameterized PowerShell preflight pipeline. I defined the validation workflow and used Codex to accelerate implementation and testing. The pipeline checked schema, controlled values, unique IDs, aliases, manager references and lifecycle consistency, then generated a hashed change plan:
+• 915 creates
+• 57 updates
+• 28 disables
+• 0 validation errors
+
+This means the input passed the defined controls and was ready for human review—not that 1,000 identities were provisioned into Entra. The test was designed to catch bad HR data and estimate change volume before approval. A production pipeline would also require governed HRIS integration, retry, throttling, reconciliation and rollback. The result is a separation between workforce facts, access policy, approval, application and verification.
+
+Next: why department membership must never automatically create an administrator.
+
+#MicrosoftEntra #IdentityGovernance #IAM #SC300 #PowerShell #ZeroTrust

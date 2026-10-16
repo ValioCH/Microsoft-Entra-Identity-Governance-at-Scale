@@ -1,0 +1,15 @@
+﻿{
+    "SchemaVersion":  "1.0",
+    "InputFileName":  "synthetic-hr-1000.csv",
+    "InputSha256":  "1970A48EE6DD4A87C0EAAEFC26DE91255D1AB37599027FAF728286EE619414BF",
+    "TotalIdentities":  1000,
+    "EmergencyExclusions":  2,
+    "PrivilegedIdentities":  10,
+    "WouldSatisfyMfa":  872,
+    "UserActionRequired":  98,
+    "InactiveNotTargeted":  28,
+    "MinimumMfaReadinessPercent":  95,
+    "RingsReadyForPromotion":  0,
+    "RingsBlocked":  4,
+    "Status":  "PASS"
+}

@@ -1,0 +1,12 @@
+{
+  "GeneratedAt": "2026-09-28T09:13:08.6228678+03:00",
+  "InputFileName": "synthetic-hr-1000.csv",
+  "InputRecords": 1000,
+  "PolicyRules": 13,
+  "AccessDecisions": 3859,
+  "AssignmentDecisions": 3831,
+  "OffboardingDecisions": 28,
+  "PrivilegedAccessDecisions": 0,
+  "ControlResult": "PASS",
+  "ControlStatement": "HR attributes must not grant privileged roles; privileged access requires a separate approval and PIM workflow."
+}

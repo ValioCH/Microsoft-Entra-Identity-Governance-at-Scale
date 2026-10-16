@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1350" viewBox="0 0 1200 1350" role="img">
+<style>
+text { font-family: "Segoe UI", Arial, sans-serif; }
+.kicker { font-size: 18px; font-weight: 700; letter-spacing: 1.8px; fill: #2563EB; }
+.number { font-size: 17px; font-weight: 700; fill: #2563EB; }
+.title { font-size: 47px; font-weight: 750; fill: #0F172A; }
+.question { font-size: 23px; font-weight: 600; fill: #1E293B; }
+.section { font-size: 17px; font-weight: 750; letter-spacing: 1.3px; fill: #64748B; }
+.flow-box, .test-box, .metric-box { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 2; }
+.flow-text { font-size: 20px; font-weight: 650; fill: #1E293B; }
+.step { font-size: 18px; font-weight: 750; fill: #FFFFFF; }
+.arrow { font-size: 54px; font-weight: 300; fill: #94A3B8; }
+.chip { font-size: 14px; font-weight: 750; letter-spacing: 1px; fill: #3730A3; }
+.test-title { font-size: 23px; font-weight: 700; fill: #0F172A; }
+.body { font-size: 18px; fill: #475569; }
+.metric { font-size: 34px; font-weight: 750; }
+.metric-label { font-size: 17px; fill: #475569; }
+.boundary-title { font-size: 17px; font-weight: 750; letter-spacing: 1px; fill: #9F1239; }
+.boundary { font-size: 19px; fill: #4C0519; }
+.evidence { font-size: 15px; fill: #64748B; }
+</style>
+<rect width="1200" height="1350" fill="#F8FAFC"/>
+<rect width="18" height="1350" fill="#2563EB"/>
+<text x="80" y="66" class="kicker">ENTERPRISE IDENTITY GOVERNANCE AT SCALE</text>
+<text x="80" y="145" class="title" text-anchor="start">From HR facts to</text>
+<text x="80" y="201" class="title" text-anchor="start">governed birthright access</text>
+<rect x="80" y="265" width="1040" height="88" rx="18" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="110" y="305" class="question" text-anchor="start">How do we avoid 1,000 manual tickets</text>
+<text x="110" y="335" class="question" text-anchor="start">without letting HR attributes create privilege?</text>
+<text x="80" y="380" class="section">DESIGN BEFORE AUTOMATION</text>
+<rect x="80" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="110" cy="427" r="17" fill="#2563EB"/>
+<text x="110" y="434" class="step" text-anchor="middle">1</text>
+<text x="100" y="470" class="flow-text" text-anchor="start">HR facts</text>
+<text x="100" y="496" class="flow-text" text-anchor="start">status / dept.</text>
+<text x="100" y="522" class="flow-text" text-anchor="start">manager / location</text>
+<text x="325" y="476" class="arrow">&gt;</text>
+<rect x="340" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="370" cy="427" r="17" fill="#2563EB"/>
+<text x="370" y="434" class="step" text-anchor="middle">2</text>
+<text x="360" y="470" class="flow-text" text-anchor="start">Validate</text>
+<text x="360" y="496" class="flow-text" text-anchor="start">schema / values</text>
+<text x="360" y="522" class="flow-text" text-anchor="start">references</text>
+<text x="585" y="476" class="arrow">&gt;</text>
+<rect x="600" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="630" cy="427" r="17" fill="#2563EB"/>
+<text x="630" y="434" class="step" text-anchor="middle">3</text>
+<text x="620" y="470" class="flow-text" text-anchor="start">IAM policy</text>
+<text x="620" y="496" class="flow-text" text-anchor="start">groups / license</text>
+<text x="620" y="522" class="flow-text" text-anchor="start">no admin roles</text>
+<text x="845" y="476" class="arrow">&gt;</text>
+<rect x="860" y="395" width="230" height="140" rx="18" class="flow-box"/>
+<circle cx="890" cy="427" r="17" fill="#2563EB"/>
+<text x="890" y="434" class="step" text-anchor="middle">4</text>
+<text x="880" y="470" class="flow-text" text-anchor="start">Approve / apply</text>
+<text x="880" y="496" class="flow-text" text-anchor="start">verify state</text>
+<text x="880" y="522" class="flow-text" text-anchor="start">record evidence</text>
+
+<text x="80" y="628" class="section">WHAT WAS ACTUALLY TESTED</text>
+<rect x="80" y="650" width="326" height="218" rx="18" class="test-box"/>
+<rect x="98" y="670" width="150" height="32" rx="16" fill="#E0E7FF"/>
+<text x="173" y="692" class="chip" text-anchor="middle">REVIEWABLE MODEL</text>
+<text x="98" y="742" class="test-title">20 synthetic records</text>
+<text x="98" y="782" class="body" text-anchor="start">Makes source fields and</text>
+<text x="98" y="809" class="body" text-anchor="start">IAM mappings inspectable.</text>
+<rect x="426" y="650" width="326" height="218" rx="18" class="test-box"/>
+<rect x="444" y="670" width="150" height="32" rx="16" fill="#E0E7FF"/>
+<text x="519" y="692" class="chip" text-anchor="middle">VERIFIED LIVE</text>
+<text x="444" y="742" class="test-title">2 + 10 identities</text>
+<text x="444" y="782" class="body" text-anchor="start">JML behavior, dynamic</text>
+<text x="444" y="809" class="body" text-anchor="start">groups, licensing, rerun.</text>
+<rect x="772" y="650" width="326" height="218" rx="18" class="test-box"/>
+<rect x="790" y="670" width="150" height="32" rx="16" fill="#E0E7FF"/>
+<text x="865" y="692" class="chip" text-anchor="middle">OFFLINE SCALE</text>
+<text x="790" y="742" class="test-title">1,000 records</text>
+<text x="790" y="782" class="body" text-anchor="start">Validation and change-plan</text>
+<text x="790" y="809" class="body" text-anchor="start">generation only.</text>
+<text x="80" y="932" class="section">OBSERVED RESULT</text>
+<rect x="80" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="98" y="1007" class="metric" fill="#2563EB">915</text>
+<text x="98" y="1044" class="metric-label">planned creates</text>
+<rect x="340" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="358" y="1007" class="metric" fill="#2563EB">57</text>
+<text x="358" y="1044" class="metric-label">planned updates</text>
+<rect x="600" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="618" y="1007" class="metric" fill="#2563EB">28</text>
+<text x="618" y="1044" class="metric-label">planned disables</text>
+<rect x="860" y="955" width="240" height="125" rx="16" class="metric-box"/>
+<text x="878" y="1007" class="metric" fill="#2563EB">0</text>
+<text x="878" y="1044" class="metric-label">validation errors</text>
+<rect x="80" y="1135" width="1040" height="142" rx="18" fill="#FFF1F2" stroke="#FECDD3"/>
+<text x="105" y="1170" class="boundary-title">EVIDENCE BOUNDARY</text>
+<text x="105" y="1207" class="boundary" text-anchor="start">1,000 identities were not provisioned into Entra.</text>
+<text x="105" y="1235" class="boundary" text-anchor="start">This validates preflight and policy logic - not production throughput.</text>
+<text x="80" y="1320" class="evidence">EV-IG-002-006 | HR owns facts; IAM owns access policy.</text>
+</svg>
