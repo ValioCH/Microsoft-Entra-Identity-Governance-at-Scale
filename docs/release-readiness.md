@@ -2,7 +2,7 @@
 
 ## Current state
 
-**Approved for local Git packaging** — the owner requested completion and GitHub publication on 2026-10-16. The public evidence gallery, offline validation and publication-safety scan are complete. No remote publication has yet occurred.
+**Published** — the owner requested completion and GitHub publication on 2026-10-16. The public evidence gallery, offline validation and publication-safety scan are complete, and the repository is published from the reviewed `main` branch.
 
 ## Completed
 
@@ -33,6 +33,13 @@
 - Public scope: source, synthetic inputs, deterministic outputs, documentation, tests and sanitized evidence.
 - Excluded scope: raw evidence, working LinkedIn packages, local notes, secrets, identifiers and Office source documents covered by `.gitignore`.
 - Cloud impact: none. Packaging and publication do not change Microsoft Entra or Azure state.
+
+## Publication record
+
+- Repository: `https://github.com/ValioCH/Microsoft-Entra-Identity-Governance-at-Scale`
+- Initial release commit: `f0423f9`
+- Branch: `main`
+- Publication date: 2026-10-16, Europe/Sofia
 
 ## Optional after publication
 

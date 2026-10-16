@@ -24,10 +24,10 @@ The evidence model is as important as the configuration. Every public claim maps
 
 The result is not a pretend enterprise. It is a controlled engineering method for moving from architecture to evidence while keeping approval, rollback, cost and production limitations visible.
 
-Repository: [ADD PUBLIC GITHUB URL AFTER PUBLICATION]
+Repository: https://github.com/ValioCH/Microsoft-Entra-Identity-Governance-at-Scale
 
 #MicrosoftEntra #IdentityGovernance #IAM #SC300 #PowerShell #ZeroTrust
 
 ## Evidence boundary
 
-Publish only after the public GitHub URL and final release commit exist. Use the planned architecture and public evidence gallery; do not add raw portal screenshots.
+The public GitHub URL and release commit now exist. Use the planned architecture and public evidence gallery; do not add raw portal screenshots.
