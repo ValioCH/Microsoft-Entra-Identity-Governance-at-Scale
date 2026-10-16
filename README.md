@@ -12,7 +12,7 @@ The project is built alongside SC-300 study. Each learning area is converted int
 
 ## Current status
 
-**Core lab milestones complete — approved for portfolio packaging on 2026-10-16**
+**Core lab milestones complete — public portfolio release published on 2026-10-16**
 
 The current milestone combines three deliberately different evidence levels:
 
